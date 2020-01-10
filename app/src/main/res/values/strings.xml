@@ -44,5 +44,17 @@
     <string name="mehuli_pal">Mehuli Pal</string>
     <string name="vs_subhang">VS Subhang</string>
     <string name="img">img</string>
+    <string name="no_account_yet">No Account Yet?</string>
+    <string name="register_now">Register Now</string>
+    <string name="email_not_verified">Email Not Verified?</string>
+    <string name="resend_activation_link">Resend Activation Link</string>
+    <string name="email">Email</string>
+    <string name="anw">ANW</string>
+    <string name="anwesha_id">Anwesha ID</string>
+    <string name="logo">logo</string>
+    <string name="gallery">Gallery</string>
+    <string name="login">Login</string>
+    <string name="pronite">Pronite</string>
+    <string name="events">Events</string>
 
 </resources>

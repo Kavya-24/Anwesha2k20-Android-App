@@ -18,6 +18,7 @@
             android:layout_marginStart="32dp"
             android:layout_marginTop="32dp"
             android:layout_marginEnd="32dp"
+            android:contentDescription="@string/logo"
             android:padding="8dp"
             android:id="@+id/login_image"/>
 
@@ -28,8 +29,8 @@
             android:layout_marginTop="16dp"
             android:layout_marginRight="16dp"
             android:layout_marginBottom="8dp"
-            android:hint="Anwesha ID"
-            android:textColorHint="@color/white">
+            android:hint="@string/anwesha_id"
+            android:textColorHint="@color/registration_page">
 
             <com.google.android.material.textfield.TextInputEditText
                 android:id="@+id/login_celesta_Id_edittext"
@@ -37,10 +38,10 @@
                 android:layout_height="wrap_content"
                 android:ems="10"
                 android:inputType="text"
-                android:text="ANW"
+                android:text="@string/anw"
                 android:textAllCaps="true"
                 android:maxLines="1"
-                android:textColor="@color/white"
+                android:textColor="@color/registration_page"
                 android:theme="@style/AppTheme.Edittext" />
         </com.google.android.material.textfield.TextInputLayout>
 
@@ -51,10 +52,10 @@
             android:layout_marginTop="8dp"
             android:layout_marginRight="16dp"
             android:layout_marginBottom="16dp"
-            android:hint="Password"
-            android:textColorHint="@color/white"
+            android:hint="@string/password"
+            android:textColorHint="@color/registration_page"
             app:passwordToggleEnabled="true"
-            app:passwordToggleTint="@color/white">
+            app:passwordToggleTint="@color/registration_page">
 
             <com.google.android.material.textfield.TextInputEditText
                 android:id="@+id/login_password_edittext"
@@ -79,8 +80,9 @@
             android:layout_marginBottom="32dp"
             android:padding="8dp"
             android:enabled="false"
-            android:text="Login"
-            android:textColor="@color/white" />
+            android:text="@string/login"
+            android:textColor="@color/registration_page"
+            android:textStyle="bold" />
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -94,8 +96,8 @@
                 android:layout_margin="4dp"
                 android:layout_weight="1"
                 android:gravity="end"
-                android:text="No Account Yet?"
-                android:textColor="@color/white"
+                android:text="@string/no_account_yet"
+                android:textColor="@color/registration_page"
                 android:textSize="16sp" />
 
             <androidx.appcompat.widget.AppCompatTextView
@@ -105,8 +107,9 @@
                 android:layout_margin="4dp"
                 android:layout_weight="1"
                 android:gravity="start"
-                android:text="Register Now"
-                android:textColor="@color/green"
+                android:text="@string/register_now"
+                android:textColor="#654321"
+                android:textStyle="bold"
                 android:textSize="16sp" />
 
         </LinearLayout>
@@ -124,8 +127,8 @@
                 android:layout_margin="4dp"
                 android:layout_weight="1"
                 android:gravity="end"
-                android:text="Email Not Verified?"
-                android:textColor="@color/white"
+                android:text="@string/email_not_verified"
+                android:textColor="@color/registration_page"
                 android:textSize="16sp" />
 
             <TextView
@@ -135,8 +138,9 @@
                 android:layout_margin="4dp"
                 android:layout_weight="1"
                 android:gravity="start"
-                android:text="Resend Activation Link"
-                android:textColor="@color/green"
+                android:text="@string/resend_activation_link"
+                android:textColor="#654321"
+                android:textStyle="bold"
                 android:textSize="16sp" />
 
         </LinearLayout>

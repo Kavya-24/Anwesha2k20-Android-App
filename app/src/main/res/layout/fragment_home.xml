@@ -13,6 +13,7 @@
         android:id="@+id/main_logo_iv"
         android:layout_width="match_parent"
         android:layout_height="0dp"
+        android:contentDescription="@string/logo"
         android:layout_marginStart="32dp"
         android:layout_marginEnd="32dp"
         android:layout_weight="1.3"
@@ -85,7 +86,7 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:fontFamily="@font/jim_nightshade"
-                android:text="Events"
+                android:text="@string/events"
                 android:textColor="@color/brown"
                 android:textSize="@dimen/mi_text_size" />
         </LinearLayout>
@@ -110,7 +111,7 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:fontFamily="@font/jim_nightshade"
-                android:text="Pronite"
+                android:text="@string/pronite"
                 android:textColor="@color/brown"
                 android:textSize="@dimen/mi_text_size" />
         </LinearLayout>
@@ -132,7 +133,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/jim_nightshade"
-                android:text="Login"
+                android:text="@string/login"
                 android:textColor="@color/brown"
                 android:textSize="@dimen/mi_text_size"
                 android:layout_gravity="center"/>
@@ -156,7 +157,7 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:fontFamily="@font/jim_nightshade"
-                android:text="Gallery"
+                android:text="@string/gallery"
                 android:textColor="@color/brown"
                 android:textSize="@dimen/mi_text_size" />
         </LinearLayout>
