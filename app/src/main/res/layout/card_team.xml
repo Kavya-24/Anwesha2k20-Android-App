@@ -83,6 +83,7 @@
                 android:id="@+id/card_call"
                 android:layout_width="35dp"
                 android:layout_height="35dp"
+                android:visibility="gone"
                 android:layout_margin="4dp"
                 app:cardBackgroundColor="@color/team_text"
                 app:cardCornerRadius="17dp"
